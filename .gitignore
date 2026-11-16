@@ -1,0 +1,21 @@
+# secrets and local settings - NEVER commit these
+.env
+*.env
+!.env.example
+.streamlit/secrets.toml
+
+# python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# files the app creates while running
+published/
+*.log
+
+# editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
